@@ -13,6 +13,11 @@ cloudinary.config(
 )
 
 
+@app.route('/')
+def home():
+    return 'Hello, World!'
+
+
 @app.route('/upload', methods=['POST'])
 def upload_image():
     if 'photo' not in request.files:
