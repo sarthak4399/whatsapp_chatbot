@@ -3,12 +3,11 @@ from flask import Flask, request, jsonify
 import cloudinary
 from cloudinary.uploader import upload
 
-
 app = Flask(__name__)
 cloudinary.config(
-    cloud_name='doerkgxce',
-    api_key='166618279153227',
-    api_secret='R2f4f3IH1U0nmsZ5iKrzUX6EGTM'
+    cloud_name='',
+    api_key='',
+    api_secret=''
 )
 
 
